@@ -1,0 +1,312 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    width: 100vw;
+    font-family: 'Noto Serif JP', 'Potta One';
+    background-image: none;
+    background-image:url("../img/969280.jpg");
+    background-size:cover;
+}
+    
+
+
+header {
+    display: flex;
+    width: 100vw;
+    height: 100px;
+    position: absolute;
+    z-index:1;
+    position: fixed;
+    top:0px
+}
+
+    
+.header__wrapper {
+    width: 1120px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerLogo {
+    color: #E6DCDC;
+    font-family: 'Potta One';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.headerList__item {
+    list-style-type: none;
+}
+
+
+.headerList {
+    display: flex;
+    color: #E6DCDC;
+    font-size: 16px;
+    gap: 48px;
+}
+.bx-wrapper {
+    margin: 0 !important;
+    border: 0 !important;
+    box-shadow: none !important;
+    background: none !important;
+}
+
+.catchCopy {
+    color:white;
+    font-family: 'Noto Serif JP';
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    position: absolute;
+    top: 79.6%;
+    left: 7.38%;
+}
+
+.fullScreen {
+    background: url(#);
+}
+
+.mainVisual {
+    width: 1440px;
+    height: 650px;
+    flex-shrink: 0;
+}
+.manu_wrapper {
+    width: 1120px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.manuTitel{
+    text-align: center;
+    margin-top:64px;
+}
+.manuTitel_main {
+    color: #000;
+    font-family: 'Noto Serif JP';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center
+}
+
+.manuTitel_sub {
+    color: #000;
+    font-family: 'Noto Serif JP';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    margin-top: 16px;
+}
+
+.setManu {
+    display: flex;
+}
+
+
+
+.setmanu_img {
+    width: 352px;
+    height: 257px;
+    margin:16px;
+}
+
+.setmanu_letter {
+    text-align: center
+}
+
+.setmanu_Note {
+    color: #000;
+    font-family: 'Noto Serif JP';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    margin-top:64px;
+}
+
+.galleryTitel_main {
+    color: #000;
+    font-family: 'Noto Serif JP';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    margin-top: 128px;
+}
+
+.galleryTitel_sub {
+    color: #000;
+    font-family: 'Noto Serif JP';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    margin-top: 16px;
+}
+
+.slider2 img {
+    height:205px;
+    padding: 20px;
+    object-fit:cover;
+}
+
+.newsTitel_main {
+    color: #000;
+    font-family: 'Noto Serif JP';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    margin-top: 128px;
+}
+
+.newsTitel_sub {
+    color: #000;
+    font-family: 'Noto Serif JP';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    margin-top: 16px;
+}
+
+.news_wrapper {
+    width: 1120px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.news1 {
+
+    color: #000;
+    font-family: 'Noto Serif JP';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-top: 2px black solid;
+    padding: 8px;
+    border-bottom: 0px black solid;
+    max-width: 500px;
+    margin-left: 33%;
+    margin-right: 33%;
+    margin-top: 72px;
+}
+
+.news2 {
+    color: #000;
+    font-family: 'Noto Serif JP';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-top: 2px black solid;
+    padding: 8px;
+    border-bottom: 0px black solid;
+    max-width: 500px;
+    margin-left: 33%;
+    margin-right: 33%;
+}
+
+.news3 {
+    color: #000;
+    font-family: 'Noto Serif JP';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-top: 2px black solid;
+    padding: 8px;
+    border-bottom: 0px black solid;
+    max-width: 500px;
+    margin-left: 33%;
+    margin-right: 33%;
+}
+
+.news4 {
+    color: #000;
+    font-family: 'Noto Serif JP';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-top: 2px black solid;
+    padding: 8px;
+    border-bottom: 2px black solid;
+    max-width: 500px;
+    margin-left: 33%;
+    margin-right: 33%;
+}
+
+.mapTitel_main {
+    color: #000;
+    font-family: 'Noto Serif JP';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    margin-top: 128px;
+}
+
+.mapTitel_sub {
+    color: #000;
+    font-family: 'Noto Serif JP';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    margin-top: 16px;
+}
+
+.googlemap {
+    margin-top: 64px;
+}
+
+.info {
+    margin-top:64px;
+    margin-bottom:64px;
+    display: flex;
+}
+.info1{
+    display: flex;
+}
+.info_wrapper {
+    width: 1120px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.info_titol {
+    border-left: #000 solid 2px;
+    display: inline-block
+}
+
+
+footer {
+    padding: 15px 0;
+    background-color: black;
+    text-align: center;
+    color: white;
+}
